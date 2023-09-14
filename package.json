@@ -14,8 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predebloy": "npm run bulid",
-    "debloy": "gh-pages -d bulid",
+    "predeploy": "npm run bulid",
+    "deploy": "gh-pages -d bulid",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
