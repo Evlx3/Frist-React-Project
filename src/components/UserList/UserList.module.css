@@ -1,0 +1,20 @@
+/* UserList Styles */
+.sec-2 {
+  margin-top: 2em;
+  height: auto;
+  overflow: hidden;
+}
+
+.card-ul {
+  list-style: none;
+}
+
+.card-ul__li {
+  margin-top: 0.4em;
+  font-weight: 600;
+  display: flex;
+  padding: 0.2em 0.5em;
+  border-radius: 0.4em;
+  background-color: aquamarine;
+  border: 0.4px solid black;
+}

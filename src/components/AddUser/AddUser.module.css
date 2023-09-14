@@ -1,0 +1,41 @@
+/* form Styles */
+
+.form {
+  height: 100%;
+}
+
+.form-controler {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.form-controler__inputs {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.form-controler__inputs label {
+  text-align: left;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0.3em 0;
+}
+
+.form-controler__inputs input {
+  border: 1.4px solid black;
+  border-radius: 0.6em;
+  font-size: 0.8rem;
+  padding: 0.4em;
+  height: 1.4rem;
+}
+
+.form-controler__inputs input:focus {
+  outline: none;
+  border-color: blue;
+}
+
+.form-submit {
+  align-self: start;
+}
